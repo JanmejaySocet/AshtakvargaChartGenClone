@@ -37,6 +37,11 @@
             document.getElementById('download-report-btn').addEventListener('click', downloadReportPDF);
         };
 
+        function toggleMobileMenu() {
+    const menu = document.getElementById('mobile-menu');
+    menu.classList.toggle('hidden');
+}
+
         function populateDropdowns() {
             const container = document.getElementById('input-container');
             const createSelect = (id, labelText, defaultValue) => {

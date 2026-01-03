@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | JSK Jyotish</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        .profile-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #4338ca 0%, #3b82f6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav class="bg-indigo-700 text-white shadow-lg sticky top-0 z-[1000]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <span class="text-xl font-bold">JSK</span>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="index.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-600">Home</a>
+                        <a href="documentation.html" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-indigo-600">Documentation</a>
+                        <a href="about.html" class="px-3 py-2 rounded-md text-sm font-medium bg-indigo-800">About Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-4xl mx-auto py-12 px-6">
+        <div class="profile-card rounded-3xl shadow-2xl overflow-hidden border border-white">
+            <div class="md:flex">
+                <div class="md:w-1/3 bg-indigo-50 flex items-center justify-center p-8">
+                    <div class="relative">
+                        <img src="developer.jpeg" alt="Janmejay Pandya" class="rounded-2xl shadow-lg border-4 border-white w-full object-cover">
+                        <div class="absolute -bottom-4 -right-4 bg-green-500 w-8 h-8 rounded-full border-4 border-white"></div>
+                    </div>
+                </div>
+
+                <div class="md:w-2/3 p-8 md:p-12">
+                    <h4 class="text-indigo-600 font-semibold tracking-widest uppercase text-sm mb-2">Developer & Consultant</h4>
+                    <h1 class="text-4xl font-extrabold mb-4 gradient-text">Janmejay Pandya</h1>
+                    
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Passionate about combining ancient Vedic wisdom with modern technology. I specialize in building computational astrology tools that are accurate, accessible, and user-friendly. 
+                    </p>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                        <div class="flex items-center space-x-3 text-slate-700">
+                            <i class="fa-solid fa-location-dot text-indigo-500"></i>
+                            <span>Adalaj, Gujarat, India</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-slate-700">
+                            <i class="fa-solid fa-phone text-indigo-500"></i>
+                            <span>+91 95123 63057</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-slate-700">
+                            <i class="fa-solid fa-envelope text-indigo-500"></i>
+                            <span>Janmejay.work@gmail.com</span>
+                        </div>
+                        <div class="flex items-center space-x-3 text-slate-700">
+                            <i class="fa-solid fa-globe text-indigo-500"></i>
+                            <a href="https://janmejay.live/" class="hover:text-indigo-600 transition">View Portfolio</a>
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-4">
+                        <a href="https://wa.me/919512363057?text=Namaste%20Janmejay" class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-green-500 hover:text-white transition-all shadow-sm">
+                            <i class="fa-brands fa-whatsapp text-xl"></i>
+                        </a>
+                        <a href="https://www.instagram.com/janmejay_pandya/" class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 hover:text-white transition-all shadow-sm">
+                            <i class="fa-brands fa-instagram text-xl"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/janmejay-pandya/" class="w-12 h-12 flex items-center justify-center rounded-full bg-slate-100 text-slate-600 hover:bg-blue-700 hover:text-white transition-all shadow-sm">
+                            <i class="fa-brands fa-linkedin-in text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100">
+                <i class="fa-solid fa-code text-3xl text-indigo-500 mb-4"></i>
+                <h3 class="font-bold mb-2">Web Logic</h3>
+                <p class="text-sm text-slate-500">Expertise in JavaScript engines for complex astronomical calculations.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100">
+                <i class="fa-solid fa-moon text-3xl text-indigo-500 mb-4"></i>
+                <h3 class="font-bold mb-2">Vedic Knowledge</h3>
+                <p class="text-sm text-slate-500">Deep understanding of Ashtakavarga, Kundli, and planetary strength.</p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-md border border-slate-100">
+                <i class="fa-solid fa-file-pdf text-3xl text-indigo-500 mb-4"></i>
+                <h3 class="font-bold mb-2">Report Automation</h3>
+                <p class="text-sm text-slate-500">Generating professional, accurate PDF reports for clients instantly.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-center py-8 text-slate-400 text-sm">
+        <p>&copy; 2026 JSK. Built with precision and care.</p>
+    </footer>
+
+</body>
+</html>
